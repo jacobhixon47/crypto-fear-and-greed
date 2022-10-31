@@ -1,0 +1,17 @@
+* {
+    margin:0;
+    padding: 0;
+}
+
+.outer-container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.graph-container {
+
+}
+
+.graph {
+    max-width: 100%;
+}
