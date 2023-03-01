@@ -27,7 +27,7 @@ warnings.filterwarnings("ignore", category=FutureWarning)
 
 query = 'from:AltcoinFGI -is:reply -is:retweet'
 
-BASE = ""
+BASE = constants.base_url
 
 # Pretty Table Config/Style
 table = PrettyTable()
